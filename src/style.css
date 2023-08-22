@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply overflow-hidden;
+}
+
+.full{
+    @apply h-full w-full;
+}
+
+.text-vertical{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
